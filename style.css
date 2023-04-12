@@ -170,10 +170,12 @@ div > a {
 
 .time-slot {
     padding-top: 0.7rem;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .session {
     padding-bottom: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .session-presenter {
@@ -181,6 +183,7 @@ div > a {
     margin-bottom: 0.3rem;
     font-weight: bold;
     font-size: large;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .time-slot-hr {
