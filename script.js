@@ -1,3 +1,5 @@
+document.cookie = 'same-site-cookie=foo; SameSite=Lax';
+
 function openClose() {
     const menu = document.querySelector(".mobile-menu-wrapper");
     if (menu.style.display == 'flex') {

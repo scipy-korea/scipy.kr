@@ -176,6 +176,18 @@ div > a {
     padding-bottom: 1rem;
 }
 
+.session-presenter {
+    margin-top: 1.3rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+.time-slot-hr {
+    width: 100%;
+    margin-top: 1rem;
+}
+
 .contact-container {
     padding-top: 1rem;
     padding-bottom: 1rem;
