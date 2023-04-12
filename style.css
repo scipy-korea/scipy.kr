@@ -104,6 +104,7 @@ div > a {
 
 .page-content {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -168,6 +169,10 @@ div > a {
 
 }
 
+.timetable-wrapper {
+    width: 90%;
+}
+
 .time-slot {
     padding-top: 0.7rem;
     font-family: 'Noto Sans KR', sans-serif;
@@ -189,6 +194,52 @@ div > a {
 .time-slot-hr {
     width: 100%;
     margin-top: 1rem;
+}
+
+.presenter-card {
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.presenter-photo {
+    align-self: center;
+    justify-content: center;
+}
+
+.presenter-img {
+    min-width:7rem;
+    max-width:7rem;
+    min-height: 9rem;
+    border-radius: 90px;
+    object-fit: cover;
+}
+
+.presenter-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 2rem;
+}
+
+.presenter-name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.presenter-position {
+    padding-top: 0.5rem;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.presenter-intro {
+    margin-top: 1rem;
+    width: 100%;
 }
 
 .contact-container {
