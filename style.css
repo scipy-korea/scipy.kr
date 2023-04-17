@@ -76,7 +76,7 @@ h3 {
 
 .sp-korea-logo-img {
     display: flex;
-    width: 2rem;
+    max-width: 2rem;
     margin: 0;
     padding: 0;
 
