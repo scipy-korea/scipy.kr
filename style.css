@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 p {
     width: 90vw;
     display: block;
@@ -61,12 +65,21 @@ h3 {
 
 .nav-logo {
     display: flex;
-    text-align: center;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     cursor: pointer;
     padding-left: 1rem;
     font-weight: 900;
     font-family: 'Lato', sans-serif;
+}
+
+.sp-korea-logo-img {
+    display: flex;
+    width: 2rem;
+    margin: 0;
+    padding: 0;
+
 }
 
 div > a {
