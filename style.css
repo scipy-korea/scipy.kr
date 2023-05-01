@@ -3,7 +3,9 @@
     margin: 0;
     text-decoration: none;
 }
-
+ul{
+    list-style:none;
+    }
 img {
     display: block;
 }
@@ -253,6 +255,57 @@ div > a {
 .presenter-intro {
     margin-top: 1rem;
     width: 100%;
+}
+
+.staffs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.staff {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.staff-head {
+    display: flex;
+    
+
+}
+
+.staff-img {
+    border-radius:70%;
+    overflow:hidden;
+}
+
+.staff-img-src {
+    min-width: 7rem;
+    max-width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+}
+
+.staff-body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.staff-name {
+    font-size: large;
+    font-weight:bolder;
+}
+
+.staff-bio {
+    color: black;
+}
+
+.staff-bio-p {
+    text-align: left;
 }
 
 .contact-container {
