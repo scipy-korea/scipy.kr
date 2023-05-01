@@ -267,6 +267,7 @@ div > a {
 .staff {
     display: flex;
     align-items: center;
+    width: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -306,6 +307,7 @@ div > a {
 
 .staff-bio-p {
     text-align: left;
+    width:fit-content ;
 }
 
 .contact-container {
