@@ -61,8 +61,13 @@ h3 {
     align-content: center;
     width: 100%;
     height: 3rem;
-    background: rgb(1, 50, 67);
+    background: black;
+    /* background: rgb(1, 50, 67); */
     color: white;
+}
+
+.nav-title {
+    padding-left: 0.8rem;
 }
 
 .nav-logo {
@@ -167,10 +172,13 @@ div > a {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-.logo-img {
-    width: 38vw;
+.section-img {
+    width: 45vw;
     background: none;
     background: transparent;
+}
+
+.swirl {
     animation: spin 500s linear infinite;
 }
 
@@ -320,7 +328,8 @@ div > a {
     align-items: center;
     width: 100%;
     height: 3rem;
-    background: rgb(1, 50, 67);
+    background: black;
+    /* background: rgb(1, 50, 67); */
     color: white;
     font-family: 'Lato', sans-serif;
 
@@ -365,7 +374,8 @@ div > a {
     display: none;
     flex-direction: column;
     justify-content: center;
-    background: rgb(1, 50, 67);
+    background: black;
+    /* background: rgb(1, 50, 67); */
     width: 100%;
     z-index: 999;
     color: white;
