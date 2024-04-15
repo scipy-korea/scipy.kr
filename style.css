@@ -396,6 +396,11 @@ div > a {
         display:none;
     }
     
+    .section-img {
+        width: 80vw;
+        background: none;
+        background: transparent;
+    }
 
 
 }
